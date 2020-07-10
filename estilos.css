@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+h2{
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: 0;
+    text-align: center;
+}
+h4{
+    font-size: 35px;
+    color: #055e6b;
+}
+h5{
+    font-size: 22px;
+}
+header{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header figure img{
+    height: 80px;
+}
+header nav{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 116px;
+    background-color: rgba(255, 255, 255, .8);
+}
+header ul{
+    display: none;
+    list-style: none;
+    margin: 0;
+}
+.menu:hover ul, ul:hover{
+    display: block;
+}
+.hero{
+    text-align: center;
+}
+.Contacto{
+    background-color: #7000ad;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Contacto p{
+    font-size: 45px;
+    margin: 0;
+    padding-right: 10px;
+    text-align: center;
+}
+.Contacto p small{
+    font-size: 16px;
+    
+}
+.Contacto a{
+    font-size: 25px;
+    padding: 5px 14px;
+    border: solid 2px white;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 2px 0;
+}
+footer p{
+    margin: 0;
+}

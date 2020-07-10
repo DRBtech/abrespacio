@@ -1,0 +1,79 @@
+.hero{
+    text-align: justify;
+}
+.hero article{
+    padding: 100px 15px 0px;
+}
+.hero figure{
+    margin: 0;
+    padding-bottom: 42px;
+}
+.hero figure img{
+    width: 100%;
+}
+.hero h4, .hero h2, .hero p{
+    margin: 0;
+}
+.hero p{
+    padding: 21px 0 33px;
+}
+.hero a{
+    border: solid 2px #055e6b;
+    padding: 7.5px 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.Proyectos{
+    padding-top: 120px;
+}
+.Proyectos figure{
+    margin: 0;
+    padding: 0 15px;
+}
+.Proyectos img{
+    width: 100%;
+}
+.Proyectos div{
+    background-color: #1fbec4;
+    color: white;
+    height: 278px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Proyectos p{
+    font-size: 45px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.Proyectos div a{
+    font-size: 25px;
+    padding: 5px 14px;
+    border: solid 2px white;
+    text-decoration: none;
+    color: white;
+}
+.Nosotros article{
+    padding: 0 15px;
+}
+.Nosotros figure {
+    width: 100%;
+    margin: 0;
+}
+.Nosotros figure img{
+    width: 100%;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Nosotros p{
+    position: relative;
+    margin: -25px 10px 10px;
+    text-align: center;
+    background-color: white;
+    height: 60px;
+    z-index: 2;
+}

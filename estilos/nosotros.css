@@ -1,0 +1,35 @@
+h4{
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+}
+p {
+
+}
+.hero{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    padding: 0 15px;
+}
+.contenido article{
+    padding-bottom: 50px;
+}
+.nosotros{
+    padding: 0 35px;
+}
+.nosotros figure{
+    width: 100%;
+    margin: 0;
+}
+.nosotros figure img{
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.nosotros div{
+    padding: 0 15px;
+}
