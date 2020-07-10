@@ -20,8 +20,6 @@
 .hero a{
     border: solid 2px #055e6b;
     padding: 7.5px 14px;
-    text-decoration: none;
-    color: black;
     font-size: 16px;
 }
 .Proyectos{
@@ -53,7 +51,6 @@
     font-size: 25px;
     padding: 5px 14px;
     border: solid 2px white;
-    text-decoration: none;
     color: white;
 }
 .Nosotros article{
@@ -76,4 +73,13 @@
     background-color: white;
     height: 60px;
     z-index: 2;
+}
+@media screen and (min-width:479px){
+
+}
+@media screen and (min-width:767px){
+
+}
+@media screen and (min-width:1023px){
+
 }

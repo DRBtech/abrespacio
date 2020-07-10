@@ -11,7 +11,14 @@
 }
 .publicaciones a{
     text-align: center;
-    color: black;
-    text-decoration: none;
     text-transform: uppercase;
+}
+@media screen and (min-width:479px){
+
+}
+@media screen and (min-width:767px){
+
+}
+@media screen and (min-width:1023px){
+
 }
