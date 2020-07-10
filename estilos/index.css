@@ -75,10 +75,50 @@
     z-index: 2;
 }
 @media screen and (min-width:479px){
-
+    .Proyectos figure{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .Proyectos figure a{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .Proyectos div{
+        height: 200px;
+    }
+    .Proyectos div p{
+        width: 50%;
+    }
+}
+@media screen and (min-width:570px){
+    .hero article{
+        display: flex;
+    }
+    .hero article figure{
+        width: 50%;
+    }
+    .hero article div{
+        width: 50%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .hero article div h2, .hero article div h4{
+        text-align: left;
+    }
+    .hero article div p{
+        text-align: justify;
+    }
+    
 }
 @media screen and (min-width:767px){
-
+    .hero article div{
+        padding: 0 10px 42px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width:1023px){
 
