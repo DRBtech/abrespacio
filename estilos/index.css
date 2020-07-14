@@ -28,30 +28,61 @@
 .Proyectos figure{
     margin: 0;
     padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 .Proyectos img{
     width: 100%;
 }
-.Proyectos div{
+.Proyectos figure a{
+    position: relative;
+}
+.proyecto-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+.proyecto-info p{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.Proyectos figure a:hover .proyecto-info{
+    display: flex;
+}
+.Proyectos-footer{
     background-color: #1fbec4;
     color: white;
     height: 278px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.Proyectos p{
+.Proyectos-footer p{
     font-size: 45px;
     margin: 0;
     padding: 10px 0;
     text-align: center;
 }
-.Proyectos div a{
+.Proyectos-footer a{
     font-size: 25px;
     padding: 5px 14px;
     border: solid 2px white;
     color: white;
+}
+.Nosotros div{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .Nosotros article{
     padding: 0 15px;
@@ -76,23 +107,17 @@
 }
 @media screen and (min-width:479px){
     .Proyectos figure{
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-evenly;
-        padding: 0;
     }
-    .Proyectos figure a{
-        width: 40%;
-        margin-bottom: 10px;
-    }
-    .Proyectos div{
+    .Proyectos-footer div{
         height: 200px;
     }
-    .Proyectos div p{
+    .Proyectos-footer div p{
         width: 50%;
     }
 }
-@media screen and (min-width:570px){
+@media screen and (min-width:650px){
     .hero article{
         display: flex;
     }
@@ -119,7 +144,26 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .Proyectos figure{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .Nosotros div{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .Nosotros article{
+        grid-column-end: span 2;
+    }
+    .Nosotros .Valeria{
+        grid-column-start: 2;
+    }
 }
 @media screen and (min-width:1023px){
-
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero article{
+        max-width: 1000px;
+    }
 }
