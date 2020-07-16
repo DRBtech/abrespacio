@@ -7,7 +7,11 @@
 .formulario{
     text-align: center;
     width: 100%;
-    padding: 15px 0;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 input{
     font-size: 15px;
@@ -17,6 +21,11 @@ input{
     box-sizing: border-box;
     margin: 5px 0;
     padding: 15px;
+}
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
 }
 .mensaje{
     height: 140px;
@@ -43,12 +52,22 @@ input{
     padding: 5px 14px;
     border: solid 2px white;
     color: white;
+    text-align: center;
 }
 @media screen and (min-width:479px){
 
 }
 @media screen and (min-width:767px){
-
+    .formulario form{
+        max-width: 1000px;
+    }
+    .Proyectos{
+        flex-wrap: nowrap;
+    }
+    .Proyectos p{
+        padding: 10px 15px;
+        max-width: 800px;
+    }
 }
 @media screen and (min-width:1023px){
 

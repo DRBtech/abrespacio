@@ -1,7 +1,3 @@
-h4{
-    text-align: center;
-    margin: 0;
-}
 .hero{
     height: 90px;
     display: flex;
@@ -10,12 +6,32 @@ h4{
 }
 .contenido{
     padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.contenido article{
+.contenido h4{
+    text-align: center;
+    margin: 0;
+}
+.contenido-article{
     padding-bottom: 50px;
+}
+.contenido-imgwraper, .contenido-img{
+    width: 100%;
+    margin: 0;
+}
+.contenido-text{
+    padding-top: 15px;
+}
+.contenido-text p{
+    text-align: center;
 }
 .nosotros{
     padding: 0 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .nosotros figure{
     width: 100%;
@@ -26,15 +42,57 @@ h4{
     border-radius: 50%;
     overflow: hidden;
 }
-.nosotros div{
-    padding: 0 15px;
-}
 @media screen and (min-width:479px){
-
+    .contenido-article{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        padding: 0;
+    }
+    .contenido-imgwraper, .contenido-text{
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .contenido-imgwraper{
+        text-align: right;
+        border-right: 1px solid #01b282;
+        border-collapse: collapse;
+    }
+    .contenido-img{
+        max-width: 200px;
+    }
+    .contenido-text{
+        padding: 15px 10px;
+        border-left: 1px solid #01b282;
+        border-collapse: collapse;
+    }
 }
 @media screen and (min-width:767px){
-
+    .nosotros article{
+       display: flex;
+       max-width: 1000px;
+       margin-bottom: 50px;
+    }
+    .nosotros div{
+        width: 35%;
+        box-sizing: border-box;
+    }
+    .nosotros p{
+        width: 65%;
+        box-sizing: border-box;
+        padding: 0 10px;
+        margin: 0;
+    }
+    .nosotros h4, .nosotros h5{
+        margin: 0;
+        padding-top: 5px;
+    }
 }
 @media screen and (min-width:1023px){
-
+    .nosotros div{
+        width: 25%;
+    }
+    .nosotros p{
+        width: 75%;
+    }
 }

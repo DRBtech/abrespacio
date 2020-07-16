@@ -44,13 +44,14 @@
             <p>
                 Email: contacto@abrespacio.cl 
             </p>
-            <div>
-                <input class="nombre text" type="text" placeholder="Nombre y Apellido" />
-                <input class="email text" type="email" placeholder="Tu dirección de email"/>
+            <form method="post">
+                <input class="nombre text" type="text" placeholder="Nombre y Apellido" name="name" required="" />
+                <input class="nombre text" type="text" placeholder="Nombre y Apellido" name="asunto" required="" />
+                <input class="email text" type="email" placeholder="Tu dirección de email" name="email" required="" />
                 <!-- <input class="mensaje text" type="text" placeholder="Escribenos tu mensaje y te responderemos" /> -->
-                <textarea class="mensaje text" placeholder="Escribenos tu mensaje y te responderemos"></textarea>
-                <input type="button" value="Enviar" />
-            </div>
+                <textarea class="mensaje text" placeholder="Escribenos tu mensaje y te responderemos" name="msg" required=""></textarea>
+                <input type="submit" value="Enviar" name="enviar"/>
+            </form>
         </section>
         <section class="Proyectos">
             <p>Tienes un proyecto en mente, revisa los nuestos</p>

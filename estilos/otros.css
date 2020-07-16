@@ -12,12 +12,15 @@
 .publicaciones a{
     text-align: center;
     text-transform: uppercase;
+    padding: 12px 0;
 }
 @media screen and (min-width:479px){
 
 }
 @media screen and (min-width:767px){
-
+    .publicaciones{
+        padding: 60px 15px 60px;
+    }
 }
 @media screen and (min-width:1023px){
 

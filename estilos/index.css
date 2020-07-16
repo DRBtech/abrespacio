@@ -140,12 +140,12 @@
 @media screen and (min-width:767px){
     .hero article div{
         padding: 0 10px 42px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
     }
     .Proyectos figure{
         grid-template-columns: repeat(4, 1fr);
+    }
+    .Nosotros{
+        padding-bottom: 50px;
     }
     .Nosotros div{
         grid-template-columns: repeat(6, 1fr);
@@ -165,5 +165,23 @@
     }
     .hero article{
         max-width: 1000px;
+    }
+    .hero article div{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .hero article h2{
+        font-size: 75px;
+        line-height: 70px;
+    }
+    .hero article h4{
+        font-size: 60px;
+    }
+    .hero article p{
+        width: 65%;
+        text-align: left;
+    }
+    .hero article a{
+        font-size: 20px;
     }
 }
