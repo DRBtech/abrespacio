@@ -13,6 +13,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.formulario h2, .formulario p{
+	width: 100%;
+}
 input{
     font-size: 15px;
 }
