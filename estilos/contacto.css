@@ -1,5 +1,4 @@
 .hero{
-    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +31,22 @@ textarea{
 }
 .mensaje{
     height: 140px;
+}
+::-webkit-input-placeholder{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+}
+::-moz-placeholder{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+}
+:-moz-placeholder {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+}
+:-ms-input-placeholder {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
 }
 .Proyectos{
     background-color: #1fbec4;

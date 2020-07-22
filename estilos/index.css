@@ -1,8 +1,30 @@
 .hero{
     text-align: justify;
+    height: auto;
+    position: relative;
+}
+.hero h1{
+    text-align: center;
+    color: white;
+}
+.hero-index-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    z-index: 0;
+}
+.hero-index-image img{
+    z-index: inherit;
 }
 .hero article{
-    padding: 100px 15px 0px;
+    padding: 15px 15px 0;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 100px 0 50px;
+    z-index: 1;
 }
 .hero figure{
     margin: 0;
@@ -31,6 +53,9 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
+}
+.proyecto{
+    cursor: pointer;
 }
 .Proyectos img{
     width: 100%;
@@ -106,6 +131,9 @@
     z-index: 2;
 }
 @media screen and (min-width:479px){
+    .hero figure{
+        padding-bottom: 0;
+    }
     .Proyectos figure{
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-evenly;
@@ -162,6 +190,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .hero h1{
+        font-size: 90px;
+        margin-top: 100px;
     }
     .hero article{
         max-width: 1000px;

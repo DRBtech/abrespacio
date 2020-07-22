@@ -1,5 +1,4 @@
 .hero{
-    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,12 +8,42 @@
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 10px;
-    margin: 0 10px;
+    margin: 25px 10px;
 }
 .proyecto{
-    background-color: blue;
+    cursor: pointer;
 }
+.proyecto a{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.proyecto-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.proyecto figure{
+    margin: 0;
+    width: 100%;
+}
+.proyecto img{
+    width: 100%;
 
+}
+.Proyectos a:hover .proyecto-info{
+    display: flex;
+}
 @media screen and (min-width:479px){
     .Proyectos{
         grid-template-columns: repeat(2, 1fr);

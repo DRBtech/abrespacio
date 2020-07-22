@@ -35,6 +35,7 @@ body{
 }
 h1{
     margin: 0;
+    font-size: 50px;
 }
 h2{
     font-size: 60px;
@@ -86,6 +87,17 @@ header ul{
 }
 .hero{
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+.hero h1{
+    z-index: 2;
+}
+.hero-image{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 .Contacto{
     background-color: #7000ad;
@@ -118,12 +130,18 @@ footer{
     background-color: black;
     color: white;
     padding: 2px 0;
+    text-align: center;
 }
 footer p{
     margin: 0;
 }
 @media screen and (min-width:479px){
-
+    h1{
+        font-size: 90px;
+    }
+    .hero{
+        height: 350px;
+    }
 }
 @media screen and (max-width:766px){  
     .menu:hover ul, ul:hover{
@@ -149,6 +167,9 @@ footer p{
     }
 }
 @media screen and (min-width:767px){
+    h1{
+        font-size: 150px;
+    }
     header{
         height: 75px;
         background-color: rgba(255, 255, 255, .5);
@@ -165,6 +186,9 @@ footer p{
     }
     header li{
         margin-right: 20px;
+    }
+    .hero{
+        height: 500px;
     }
 }
 @media screen and (min-width:1023px){

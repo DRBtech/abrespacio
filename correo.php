@@ -2,7 +2,7 @@
     if(isset($_POST['enviar'])){
         if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['msg'])){
             $asunto = $_POST['name'] . ' - abrespacio.cl';
-            $email = 'danielradriganb@gmail.com';
+            $email = 'magdalena.abrespacio@gmail.com';
             $msg = "Nombre: " . $_POST['name'] . "\r\n";
             $msg .= "Email: " . $_POST['email'] . "\r\n";
             $msg .= "Mensaje: " . $_POST['msg'] . "\r\n";
