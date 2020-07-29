@@ -1,0 +1,40 @@
+.Text, .Images{
+    text-align: center;
+    padding: 0 15px;
+}
+.Text-year, .Text-place{
+    text-align: left;
+}
+.Text-description{
+    text-align: justify;
+    word-wrap: break-word;
+}
+.Images{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-content: center; */
+}
+.img-wraper, .Images-img {
+    width: 100%;
+    max-width: 700px;
+    margin: 15px auto;
+}
+@media screen and (min-width:479px){
+    .Text div {
+        display: flex;
+        justify-content: center;
+    }
+    .Text-year, .Text-place{
+        font-size: 20px;
+        padding: 0 25px;
+    }
+}
+@media screen and (min-width:767px){
+
+}
+@media screen and (min-width:1023px){
+    /* .Images{
+        grid-template-columns: 1fr 1fr;
+    } */
+}
