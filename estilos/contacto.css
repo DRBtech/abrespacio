@@ -48,6 +48,20 @@ textarea{
     font-family: 'Century Gothic', sans-serif;
     font-size: 15px;
 }
+.boton {
+    border: 2px solid #1fbec4;
+    border-radius: 5px;
+    background-color: #1fbec4;
+    color: white;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton:hover{
+    background-color: white;
+    color: #1fbec4;
+}
 .Proyectos{
     background-color: #1fbec4;
     color: white;
@@ -69,8 +83,13 @@ textarea{
     font-size: 25px;
     padding: 5px 14px;
     border: solid 2px white;
+    border-radius: 5px;
     color: white;
     text-align: center;
+}
+.Proyectos a:hover{
+    background-color: white;
+    color: #1fbec4;
 }
 @media screen and (min-width:479px){
 

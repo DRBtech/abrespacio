@@ -123,8 +123,13 @@ header ul{
     font-size: 25px;
     padding: 5px 14px;
     border: solid 2px white;
+    border-radius: 5px;
     color: white;
     margin: 10px 0;
+}
+.Contacto a:hover{
+    background-color: white;
+    color: #7000ad;
 }
 footer{
     background-color: black;

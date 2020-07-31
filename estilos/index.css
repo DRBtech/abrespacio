@@ -106,7 +106,12 @@
     font-size: 25px;
     padding: 5px 14px;
     border: solid 2px white;
+    border-radius: 5px;
     color: white;
+}
+.Proyectos-footer a:hover{
+    background-color: white;
+    color: #1fbec4;
 }
 .Nosotros div{
     display: grid;

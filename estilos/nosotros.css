@@ -82,11 +82,17 @@
         width: 35%;
         box-sizing: border-box;
     }
+    .nosotros h4 {
+        font-size: 25px;
+    }
+    .nosotros h5 {
+        font-size: 20px;
+    }
     .nosotros p{
         width: 65%;
         box-sizing: border-box;
         padding: 0 10px;
-        margin: 0;
+        margin: auto;
     }
     .nosotros h4, .nosotros h5{
         margin: 0;
