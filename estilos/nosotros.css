@@ -47,6 +47,12 @@
 .nosotros p{
     text-align: justify;
 }
+.Clientes{
+    text-align: center;
+}
+.Clientes img{
+    width: 100%;
+}
 @media screen and (min-width:479px){
     .contenido-article{
         display: flex;
@@ -98,6 +104,35 @@
         margin: 0;
         padding-top: 5px;
     }
+    .Clientes figure{
+        margin: 0;
+        align-self: center;
+        justify-self: center;
+    }
+    .Clientes-logos{
+        display: grid;
+        grid-template: repeat(4, 1fr) / repeat(6, 1fr);
+        grid-gap: 10px;
+        margin: 25px 25px;
+    }
+    .Clientes-2x4{
+        grid-row: span 2;
+        grid-column: span 4;
+    }
+    .Clientes-2x1{
+        grid-row: span 2;
+    }
+    .Clientes-1x2{
+        grid-column: span 2;
+    }
+    .make{
+        grid-row-start: 4;
+    }
+    .catolica{
+        grid-row-start: 4;
+        grid-column: 3 / span 2; 
+    }
+    
 }
 @media screen and (min-width:1023px){
     .nosotros div{

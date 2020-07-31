@@ -30,7 +30,7 @@
                             <a href="otros.html">Otros</a>
                         </li>
                         <li>
-                            <a href="contacto.html">Contacto</a>
+                            <a href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                 </nav>
@@ -38,24 +38,25 @@
         </header>
         <section class="hero">
             <h1>Contacto</h1>
+            <img class="hero-image" src="recursos/Portadas/Victoria16.jpg">
         </section>
         <section class="formulario">
             <h2>Estemos en contacto</h2>
             <p>
-                Email: contacto@abrespacio.cl 
+                Email: magdalena.abrespacio@gmail.com 
             </p>
-            <form method="POST">
+            <form method="post">
                 <input class="nombre text" type="text" placeholder="Nombre y Apellido" name="name" required="" />
                 <input class="email text" type="email" placeholder="Tu dirección de email" name="email" required="" />
                 <textarea class="mensaje text" placeholder="Escribenos tu mensaje y te responderemos" name="msg" required=""></textarea>
-                <input type="submit" value="Enviar" name="enviar"/>
+                <input type="submit" value="Enviar" name="enviar" class="boton"/>
             </form>
             <?php 
                 include("correo.php");
             ?>
         </section>
         <section class="Proyectos">
-            <p>Tienes un proyecto en mente, revisa los nuestos</p>
+            <p>Tienes un proyecto en mente,<br /> revisa los nuestos</p>
             <a href="proyectos.html">Ver Proyectos</a>
         </section>
         <footer>
@@ -63,6 +64,5 @@
                 © 2019 Abrespacio. Todos los derechos reservados. Sitio web desarrollado por DRBTech.
             </p>
         </footer>
-        
     </body>
 </html>
